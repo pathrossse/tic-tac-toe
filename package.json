@@ -2,21 +2,18 @@
   "name": "react.dev",
   "version": "0.0.0",
   "main": "src/index.js",
-  "homepage": "https://pathrossse.github.io/tic-tac-toe/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-scripts": "^5.0.0"
   },
+  "devDependencies": {},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -28,5 +25,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    
+
+  }
+}
+
   }
 }
